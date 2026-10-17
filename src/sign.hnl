@@ -1,6 +1,6 @@
 --- Pure-handl implementation of sign.
 from "type" import { Number }
-from "../math/sign" import { Sign }
+from "math/sign" import { Sign }
 
 export sign: Sign := (x) ~> do {
   if x > 0 {

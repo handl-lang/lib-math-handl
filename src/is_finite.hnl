@@ -1,6 +1,6 @@
 --- Pure-handl implementation of is_finite.
 from "type" import { Number, Bool }
-from "../math/is_finite" import { IsFinite }
+from "math/is_finite" import { IsFinite }
 
 export is_finite: IsFinite := (x) ~> do {
   if x != x {
