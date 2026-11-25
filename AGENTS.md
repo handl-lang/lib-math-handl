@@ -8,7 +8,7 @@ Pure-handl implementation of the `math` ports (total arrows).
 | --- | --- |
 | `src/*.hnl` | one file per contract arrow + `index.hnl` |
 | `pkg.hnl` | manifest — `modules: ["math-handl"]`, dep `math: "branch:main"` |
-| `scripts/hnl-gate.sh`, `ci.sh` | the gate / bupha entry |
+| `scripts/hnl-gate.sh`, `workflows/gate.yaml` | the gate / bupha entry |
 
 ## Contract
 
